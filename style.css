@@ -1,0 +1,35 @@
+
+/* fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+/* common styles */
+body {
+    background: #E5E5E5;
+    font-family: "Poppins", sans-serif;
+}
+
+.bg-color-nav{
+    background-color: #264653; 
+}
+.collection,
+.clients{
+    color: #E76F51;
+}
+.grayscale {
+    filter: grayscale(100%);
+}
+.rating i{
+    color: #E76F51;
+}
+.cards-custom-width{
+    width: 322px;
+    height: 500px;
+}
+.card-image{
+    display: flex;
+    justify-content: center;
+   
+}
+.name{
+    color: #23A6F0;
+}
