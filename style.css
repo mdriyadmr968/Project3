@@ -1,71 +1,174 @@
-
-/* fonts  */
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-
-/* common styles */
-body {
-    background: #E5E5E5;
-    font-family: "Poppins";
+* {
+  font-family: "Playfair Display", serif;
 }
 
-.bg-color-nav{
-    background-color: #264653; 
+.bg-color-nav {
+  background-color: #264653;
 }
 .collection,
-.clients{
-    color: #E76F51;
+.clients {
+  color: #e76f51;
 }
 .grayscale {
-    filter: grayscale(100%);
+  filter: grayscale(100%);
 }
-.rating i{
-    color: #E76F51;
+.rating i {
+  color: #e76f51;
 }
-.cards-custom-width{
-    width: 322px;
-    height: 500px;
+.cards-custom-width {
+  width: 322px;
+  height: 500px;
 }
-.card-image{
-    display: flex;
-    justify-content: center;
-   
+.card-image {
+  display: flex;
+  justify-content: center;
 }
-.name{
-    color: #23A6F0;
+.name {
+  color: #23a6f0;
+}
+.discount-details {
+  text-align: center;
+  width: 60%;
+  font-weight: 700;
+  margin: auto;
+  font-size: 30px;
+  padding-bottom: 5%;
 }
 
 /* styles for subscribe */
-.subscribe{
-    width: 45%;
+.subscribe {
+  width: 45%;
 }
 form {
-    font-family: Arial;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+}
+
+input[type="text"],
+input[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  margin-top: 16px;
+}
+
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  border: none;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+/* styles for gallery  */
+.gallery-container {
+  text-align: center;
+  background-color: #09041d;
+}
+.gallery-container h4 {
+  color: #ff0e1c;
+  font-weight: 350;
+  padding-top: 4%;
+  margin-bottom: 4%;
+}
+.gallery-container h2 {
+  color: #ffffff;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 50px;
+}
+.gallery-image-container {
+  margin: 5%;
+  padding-bottom: 5%;
+}
+.gallery-image {
+  width: 320px;
+}
+
+/* style for why choose us  */
+.chooseus-container {
+}
+.chooseus-container h1 {
+  text-align: center;
+  color: #ff1b18;
+}
+.chooseus-container h5 {
+  text-align: center;
+  font-size: 20;
+  margin: 5%;
+}
+.chooseus-container h6 {
+  text-align: center;
+  margin: 5%;
+}
+.choose-cart-container {
+  width: 30%;
+}
+
+/* styles for footer  */
+footer {
+  background: #101010;
+  padding: 86px 0;
+}
+.single-content {
+  text-align: center;
+  padding: 115px 0;
+}
+.single-box p {
+  color: #fff;
+  line-height: 1.9;
+}
+.single-box h3 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+}
+.single-box .card-area i {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
+}
+.single-box ul {
+  list-style: none;
+  padding: 0;
+}
+.single-box ul li a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 2.5;
+  font-weight: 100;
+}
+.single-box h2 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+}
+#basic-addon2 {
+  background: #fe1e4f;
+  color: #fff;
+}
+.socials i {
+  font-size: 18px;
+  margin-right: 15px;
+}
+@media (max-width: 767px) {
+  .single-box {
+    margin-bottom: 50px;
   }
-  
-  .container {
-    padding: 20px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .single-box {
+    margin-bottom: 50px;
   }
-  
-  input[type=text], input[type=submit] {
-    width: 100%;
-    padding: 12px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    box-sizing: border-box;
-  }
-  
-  input[type=checkbox] {
-    margin-top: 16px;
-  }
-  
-  input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    border: none;
-  }
-  
-  input[type=submit]:hover {
-    opacity: 0.8;
-  }
- 
+}
